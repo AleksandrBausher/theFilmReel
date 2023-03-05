@@ -54,7 +54,6 @@
     <div id="dataPage" class="hidden flex-col">
       <div class="flex flex-row">
         <img class="logoImage w-[20vw]" src="./images/logo.png" alt="logo" />
-
         <div
           class="flex flex-row searchBarTop border-[0.5px] border-solid border-black self-center items-center w-[70vw] bg-white p-[5px] rounded-[10rem]"
         >
@@ -65,8 +64,10 @@
             placeholder="search for movies"
             class="outline-none border-none w-[inherit] px-[5px]"
           />
+
           <div
-            class="searchButton cursor-pointer mr-[10px] py-[5px] px-[10px] rounded-[10px] hover:bg-[greenyellow]"
+            id="searchButtonTop"
+            class="cursor-pointer mr-[10px] py-[5px] px-[10px] rounded-[10px] hover:bg-[greenyellow]"
           >
             search
           </div>
@@ -74,47 +75,33 @@
       </div>
 
       <div id="secondPage" class="container hidden flex-row mt-[10px]">
-        <img class="h-[70vh]" id="moviePoster" />
+        <img class="h-[70vh]" id="moviePoster" src="" />
 
-        <h3 class="text-xl font-bold">Description</h3>
-
-        src="https://m.media-amazon.com/images/I/61qCgQZyhOL._AC_SY741_.jpg" />
-        <div class="movieContent ml-[2rem]">
-          <h1 class="text-3xl font-bold">Terminator</h1>
-          <h2 class="text-2xl font-bold">10/21/1219</h2>
-          <h3 class="text-xl font-bold">Description</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-            voluptates in repudiandae maiores eum quas, doloribus tempora ipsam
-            eaque dolorem adipisci ullam quidem rem, sit, omnis neque laborum
-            molestiae officiis!
-          </p>
+        <div class="movieContent ml-[2rem] flex flex-col justify-between">
+          <div>
+            <h1 id="movieTitle" class="text-3xl font-bold"></h1>
+            <h2 id="movieReleaseDate" class="text-2xl font-bold"></h2>
+            <h3 class="text-xl font-bold">Description</h3>
+            <p id="movieDescription"></p>
+          </div>
           <div
             id="getGIFsButton"
             class="cursor-pointer text-center bg-white rounded-[25px] px-[10px] mx-[10px] my-[20px] border-[0.5px] border-solid border-black hover:shadow-[0px_0px_9px_0px_rgba(0,0,0,0.20)]"
           >
-            Get GIFs
+            <h3 class="text-xl font-bold">Description</h3>
+
+            > Get GIFs
           </div>
         </div>
       </div>
-      <div class="container hidden flex-col items-center" id="thirdPage">
-        <div class="text-4xl font-bold">Terminator</div>
-        <div class="flex flex-row flex-wrap">
-          <div
-            id="GIFTile"
-            class="p-[2px] border-[1px] border-dashed rounded-[5px] border-black hover:shadow-2xl m-[10px] cursor-pointer"
-          >
-            <img
-              src="https://media0.giphy.com/media/RfEbMBTPQ7MOY/giphy.gif?cid=4506b1a4xq6d6ol2k4djoruwhm54sd7es7wnypmkiqgyavmh&rid=giphy.gif&ct=g"
-              alt="gif"
-            />
-          </div>
-        </div>
+      <div id="thirdPage" class="container hidden flex-col items-center">
+        <div class="text-4xl font-bold" id="movieTitleThird"></div>
+        <div class="flex flex-row flex-wrap" id="gifContainer"></div>
       </div>
 
       <div
-        class="container hidden flex-col items-center justify-center"
         id="lastPage"
+        class="container hidden flex-col items-center justify-center"
       >
         <div class="text-4xl font-bold">Terminator</div>
         <img
@@ -125,6 +112,5 @@
       </div>
     </div>
   </body>
-
   <script src="./js/script.js"></script>
 </html>
