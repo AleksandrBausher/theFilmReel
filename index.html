@@ -23,6 +23,7 @@
           <img src="./images/logo.png" alt="logo" />
         </div>
       </div>
+
       <div
         class="flex flex-row searchBar border-[0.5px] border-solid border-black self-center items-center w-[90vw] bg-white p-[5px] rounded-[10rem]"
       >
@@ -40,6 +41,7 @@
           search
         </div>
       </div>
+
       <div class="popularMoviesContainer flex flex-col items-start">
         <div class="popularMoviesHeading ml-[2.5rem] text-lg my-[10px]">
           Popular Movies
@@ -54,6 +56,7 @@
     <div id="dataPage" class="hidden flex-col">
       <div class="flex flex-row">
         <img class="logoImage w-[20vw]" src="./images/logo.png" alt="logo" />
+
         <div
           class="flex flex-row searchBarTop border-[0.5px] border-solid border-black self-center items-center w-[70vw] bg-white p-[5px] rounded-[10rem]"
         >
@@ -88,25 +91,25 @@
             id="getGIFsButton"
             class="cursor-pointer text-center bg-white rounded-[25px] px-[10px] mx-[10px] my-[20px] border-[0.5px] border-solid border-black hover:shadow-[0px_0px_9px_0px_rgba(0,0,0,0.20)]"
           >
-            <h3 class="text-xl font-bold">Description</h3>
-
-            > Get GIFs
+            Get GIFs
           </div>
         </div>
       </div>
       <div id="thirdPage" class="container hidden flex-col items-center">
         <div class="text-4xl font-bold" id="movieTitleThird"></div>
-        <div class="flex flex-row flex-wrap" id="gifContainer"></div>
+        <div class="flex flex-row flex-wrap" id="gifContainer">
+        </div>
       </div>
 
       <div
         id="lastPage"
         class="container hidden flex-col items-center justify-center"
       >
-        <div class="text-4xl font-bold">Terminator</div>
+        <div id="movieTitleLast" class="text-4xl font-bold"></div>
         <img
+        id="showGIF"
           class="w-[50vww] h-[60vh] mt-[2rem]"
-          src="https://media0.giphy.com/media/RfEbMBTPQ7MOY/giphy.gif?cid=4506b1a4xq6d6ol2k4djoruwhm54sd7es7wnypmkiqgyavmh&rid=giphy.gif&ct=g"
+          src=""
           alt="gif"
         />
       </div>
