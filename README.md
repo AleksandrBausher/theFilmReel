@@ -13,10 +13,10 @@ The Film Reel is a coding project that aims to enhance users' movie experience b
 
 
 ## Installation
-1. Sign up for free on TMDB and GIPHY to get your api keys.
-2. Clone the repository or download the code as zip file.
-3. Replace your api keys with the preloaded keys in the script.js file.
-4. Open the index.html page with your browser to see the web app.
+Step 1. Sign up for free on TMDB and GIPHY to get your api keys.
+Step 2. Clone the repository or download the code as zip file.
+Step 3. Replace your api keys with the preloaded keys in the script.js file.
+Step 4. Open the index.html page with your browser to see the web app.
 
 ## Usage
 
