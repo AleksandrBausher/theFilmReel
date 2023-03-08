@@ -22,7 +22,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-![alt text](assets/images/screenshot.png)
+![alt text](images/screenshot.png)
+![alt text](images/screenshot2.png)
+![alt text](images/screenshot3.png)
+![alt text](images/screenshot4.png)
+
+## Credits
+
+[Aleksandr Bausher](https://www.github.com/aleksandrbausher)
 
 ## License
 MIT license
