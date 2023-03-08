@@ -20,16 +20,16 @@ The Film Reel is a coding project that aims to enhance users' movie experience b
 
 ## Usage
 
-__The Homescreen__
+> __The Homescreen__
 ![alt text](images/screenshot.png)
 
-__After searching or selecting the movie__
+> __After searching or selecting the movie__
 ![alt text](images/screenshot2.png)
 
-__After clicking on "Get GIFs" button__
+> __After clicking on "Get GIFs" button__
 ![alt text](images/screenshot3.png)
 
-__After clicking on one GIF__
+> __After clicking on one GIF__
 ![alt text](images/screenshot4.png)
 
 ## Credits
